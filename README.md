@@ -1,4 +1,44 @@
-# ONE-MORE-SHOW-V27-
-Meu site desenvolvido em Linguagem Rust agregado de JavaScript/CSS/HTML para Tech Week em minha faculdade, desenvolvido com auxilio de I.A e Figma como base no design VERSION V27 (26112025) 
-link versão FULL 
-VERSION 27 ULTIMATE FINAL https://drive.google.com/file/d/1Z92yUD8N-wglXTa93YCT-hiKtQn_F6Sl/view?usp=sharing
+# One More Show • Rust + Axum
+
+Site inspirado no seu Figma da Tech Week / One More Show.
+
+- Home com hero do evento + destaques de artistas
+- Páginas por gênero: /genero/trap, /genero/funk, /genero/rap
+- Página de artista: /artista/{slug}
+- Navegação no topo entre Início / Trap / Funk / Rap
+- Paleta roxo neon igual à do Figma
+- Imagens carregadas de /static/img
+
+## Como rodar
+
+```bash
+cd one_more_show_site
+cargo run
+```
+
+Depois acesse: http://127.0.0.1:3000
+
+## Como usar suas imagens reais
+
+Substitua os arquivos em `static/img`:
+
+- matue.jpg
+- teto.jpg
+- wiu.jpg
+- travis_scott.jpg
+- playboi_carti.jpg
+- yeat.jpg
+- anitta.jpg
+- kevin_o_chris.jpg
+- mc_poze.jpg
+- rosalia.jpg
+- bad_bunny.jpg
+- karol_g.jpg
+- djonga.jpg
+- bk.jpg
+- racionais.jpg
+- kendrick_lamar.jpg
+- drake.jpg
+- eminem.jpg
+
+Use as capas dos artistas do seu próprio Figma.

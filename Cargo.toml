@@ -1,0 +1,12 @@
+[package]
+name = "one_more_show_site"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+axum = "0.7"
+tokio = { version = "1", features = ["full"] }
+serde = { version = "1", features = ["derive"] }
+tower = "0.4"
+tower-http = { version = "0.5", features = ["fs"] }
+axum-extra = { version = "0.9", features = ["cookie"] }
